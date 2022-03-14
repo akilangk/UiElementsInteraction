@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Task on UI Elements Interaction">
+    <test name="Alert Test">
+        <classes>
+            <class name="atmecsTraining.uiElementsInteractionTask.testCases.TestAlert"/>
+        </classes>
+    </test>
+    <test name="Check Box Test">
+        <classes>
+            <class name="atmecsTraining.uiElementsInteractionTask.testCases.TestCheckBoxes"/>
+        </classes>
+    </test>
+    <test name="Links Test">
+        <classes>
+            <class name="atmecsTraining.uiElementsInteractionTask.testCases.TestLinks"/>
+        </classes>
+    </test>
+    <test name="Modal Dialogs Test">
+        <classes>
+            <class name="atmecsTraining.uiElementsInteractionTask.testCases.TestModalDialogs"/>
+        </classes>
+    </test>
+</suite>
